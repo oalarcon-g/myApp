@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  
+  image1: string;
+  image2: string;
 
   constructor() {
   	this.image1 = 'http://images6.fanpop.com/image/photos/36500000/Beautiful-Landscapes-image-beautiful-landscapes-36505176-600-450.jpg';
